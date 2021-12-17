@@ -2,6 +2,7 @@
 
 .footer {
 	padding: 15.75px;
+	padding-bottom: 0;
 	background-color: $stride-darkgray;
 	display: block;
 	color: $stride-lightgray;
@@ -19,11 +20,14 @@
 			text-align: right;
 		}
 	}
+	.break {
+		margin: 15.75px 0 0;
+		border-color: $stride-blue;
+	}
 	.credit {
 		padding: 15.75px;
-		margin: 15.75px -15.75px 0;
+		margin: 0 -15.75px;
 		text-align: center;
-		background-color: $stride-gray;
 		a {
 			color: $stride-lightgray;
 		}

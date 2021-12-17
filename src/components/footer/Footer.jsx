@@ -26,6 +26,7 @@ const Footer = () => {
 					<div>Email: info@stridemgmt.com</div>
 				</div>
 			</div>
+			<hr className='break'></hr>
 			<div className='credit'>
 				<div>
 					<a href='https://github.com/jshaw990'>Authored by: Jayden Shaw</a>
