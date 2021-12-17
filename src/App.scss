@@ -1,1 +1,13 @@
-@import './index.scss'
+@import './index.scss';
+
+.app {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container {
+    padding: 15.75px;
+    background-color: $white;
+    color: $stride-font;
+}

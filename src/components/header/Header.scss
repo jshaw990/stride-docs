@@ -1,0 +1,20 @@
+@import '../../index.scss';
+
+.header {
+    padding: 15.75px;
+    height: 100%;
+    max-height: 100px;
+    background-color: $stride-darkgray;
+    .left {
+        display: flex;
+        align-items: center;
+        .logo {
+            height: 60px;
+            width: auto;
+        }
+        .logo-text {
+            padding-left: 15px;
+            color: $stride-lightgray;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+@import "../../index.scss";
+
+.footer {
+	padding: 15.75px;
+	background-color: $stride-darkgray;
+	display: block;
+	color: $stride-lightgray;
+	.logo {
+		height: 40px;
+	}
+	.flex {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		.address {
+			text-align: left;
+		}
+		.phone {
+			text-align: right;
+		}
+	}
+	.credit {
+		padding: 15.75px;
+		margin: 15.75px -15.75px 0;
+		text-align: center;
+		background-color: $stride-gray;
+		a {
+			color: $stride-lightgray;
+		}
+	}
+}

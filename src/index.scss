@@ -5,6 +5,7 @@ $stride-green: #1abc9c;
 $stride-lightgray: #EEEEEE;
 $stride-gray: #555555;
 $stride-darkgray: #333333;
+$white: #FFFFFF;
 
 @font-face {
     font-family: 'Railway';
@@ -24,9 +25,22 @@ $stride-darkgray: #333333;
 }
 
 body {
-    color: $stride-font;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: $stride-darkgray;
+    color: $stride-lightgray;
     font-family: 'Railway', sans-serif;
     font-size: 15px;
     font-weight: 500;
     line-height: 1.7em;
+}
+
+a {
+    color: $stride-blue;
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: 700;
 }
