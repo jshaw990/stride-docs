@@ -2,45 +2,46 @@ $stride-font: #777777;
 $stride-blue: #0084b6;
 $stride-darkblue: #34495e;
 $stride-green: #1abc9c;
-$stride-lightgray: #EEEEEE;
+$stride-lightgray: #eeeeee;
 $stride-gray: #555555;
 $stride-darkgray: #333333;
-$white: #FFFFFF;
+$white: #ffffff;
+$black: #000000;
 
 @font-face {
-    font-family: 'Railway';
-    src: url('./assets/fonts/Raleway-Medium.ttf');
+	font-family: "Railway";
+	src: url("./assets/fonts/Raleway-Medium.ttf");
 }
 
 @font-face {
-    font-family: 'Railway';
-    src: url('./assets/fonts/Raleway-Bold.ttf');
-    font-weight: 700;
+	font-family: "Railway";
+	src: url("./assets/fonts/Raleway-Bold.ttf");
+	font-weight: 700;
 }
 
 @font-face {
-    font-family: 'Railway';
-    src: url('./assets/fonts/Raleway-Thin.ttf');
-    font-weight: 300;
+	font-family: "Railway";
+	src: url("./assets/fonts/Raleway-Thin.ttf");
+	font-weight: 300;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background-color: $stride-gray;
-    color: $stride-lightgray;
-    font-family: 'Railway', sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 1.7em;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: $stride-gray;
+	color: $stride-lightgray;
+	font-family: "Railway", sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 1.7em;
 }
 
 a {
-    color: $stride-blue;
-    text-decoration: none;
+	color: $stride-blue;
+	text-decoration: none;
 }
 
 .bold {
-    font-weight: 700;
+	font-weight: 700;
 }
