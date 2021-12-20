@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 
 import "./NotFound.scss";
 
@@ -14,7 +14,9 @@ const NotFoundPage = () => {
 				Sorry, the page {location.pathname} could not be found.
 			</div>
 			<div className='stride-blue bold go-home'>
-				Go back home <i class='fas fa-arrow-right'></i>
+				<Link to='/'>
+					Go back home <i class='fas fa-arrow-right'></i>
+				</Link>
 			</div>
 		</div>
 	);

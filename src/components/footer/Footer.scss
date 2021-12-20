@@ -33,3 +33,21 @@
 		}
 	}
 }
+
+@media only screen and (max-width: 600px) {
+	.footer {
+		text-align: center;
+		.flex {
+			flex-direction: column;
+			align-items: center;
+			.address {
+				text-align: center;
+				padding: 15.75px 0;
+			}
+			.phone {
+				text-align: center;
+				padding: 15.75px 0;
+			}
+		}
+	}
+}

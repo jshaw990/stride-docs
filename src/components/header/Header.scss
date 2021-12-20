@@ -6,15 +6,17 @@
     max-height: 100px;
     background-color: $stride-darkgray;
     .left {
+        a {
         display: flex;
         align-items: center;
-        .logo {
-            height: 60px;
-            width: auto;
-        }
-        .logo-text {
-            padding-left: 15px;
-            color: $stride-lightgray;
+            .logo {
+                height: 60px;
+                width: auto;
+            }
+            .logo-text {
+                padding-left: 15px;
+                color: $stride-lightgray;
+            }
         }
     }
 }

@@ -10,8 +10,8 @@ const Header = () => {
 			<div className='left'>
 				<a href='/'>
 					<img src={StrideLogo} alt='' className='logo' />
+					<div className='logo-text bold'>STRIDE Management Corp.</div>
 				</a>
-				<div className='logo-text bold'>STRIDE Management Corp.</div>
 			</div>
 		</div>
 	);
