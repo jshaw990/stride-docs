@@ -2,15 +2,17 @@
 
 .not-found-page {
 	max-height: 50vh;
-	margin: 25vh 0;
+	margin: 25vh auto;
+	width: 70%;
+	min-width: 300px;
 	.big {
 		color: $black;
-		padding: 7.38px 0;
+		padding: 7.375px 0;
 	}
 	.go-home {
 		padding: 15.75px 0;
 		.fas {
-			padding-left: 7.38px;
+			padding-left: 7.375px;
 		}
 	}
 }

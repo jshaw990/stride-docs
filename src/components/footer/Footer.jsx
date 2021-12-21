@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Footer.scss";
+import "./Footer.styles.scss";
 
 import StrideBBB from "../../assets/images/bbb-stride.png";
 

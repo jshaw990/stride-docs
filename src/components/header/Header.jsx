@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Header.scss";
+import "./Header.styles.scss";
 
 import StrideLogo from "../../assets/images/logo60.png";
 
