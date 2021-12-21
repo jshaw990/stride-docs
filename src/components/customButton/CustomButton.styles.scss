@@ -1,0 +1,22 @@
+@import "../../index.scss";
+
+
+.custom-button {
+    min-width: 75px;
+    max-width: fit-content;
+    height: 50px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px;
+    font-size: 15px;
+    background-color: $stride-blue;
+    color: $white;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    &:hover {
+        background-color: $stride-darkblue;
+    }
+}

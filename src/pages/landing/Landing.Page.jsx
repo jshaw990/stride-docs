@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Landing.styles.scss";
 
@@ -6,14 +7,17 @@ const LandingPage = () => {
 	return (
 		<div className='landing-page'>
 			<div className='xl title'>Development Practices</div>
-			<div className='lg'>A how-to guide of practices to improve development and create more efficiently</div>
+			<div className='lg'>
+				A how-to guide of practices to improve development and create more
+				efficiently
+			</div>
 			<div className='categories'>
-				<div className='item'>
+				<Link to='/wordpress' className='item'>
 					<i class='icon fab fa-wordpress-simple'></i>
 					<div className='lg'>WordPress</div>
-				</div>
-                <div className='item'>
-                    <i class="icon far fa-file-alt"></i>
+				</Link>
+				<div className='item'>
+					<i class='icon far fa-file-alt'></i>
 					<div className='lg'>ClickSpace Forms</div>
 				</div>
 				<div className='item'>
