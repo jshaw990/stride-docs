@@ -1,5 +1,5 @@
 import "./App.scss";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./components/header/Header.component";
 import Footer from "./components/footer/Footer.component";
@@ -12,13 +12,13 @@ function App() {
 		<div className='app'>
 			<Header />
 			<div className='container'>
-				<Router>
+				<BrowserRouter>
 					<Routes>
 						<Route exact path='/' element={<LandingPage />} />
-						<Route path='/wordpress' element={<WordPressPage />} />
+						<Route path='wordpress' element={<WordPressPage />} />
 						<Route path='*' element={<NotFoundPage />} />
 					</Routes>
-				</Router>
+				</BrowserRouter>
 			</div>
 			<Footer />
 		</div>

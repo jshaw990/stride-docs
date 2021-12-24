@@ -1,18 +1,20 @@
-import React from 'react' 
-import { Link } from 'react-router-dom'
+import React from "react";
+import { useNavigate } from "react-router-dom";
 
-import './HomeBreadcrumb.styles.scss'
+import "./HomeBreadcrumb.styles.scss";
 
-import CustomButton from '../customButton/CustomButton.component'
+import CustomButton from "../customButton/CustomButton.component";
 
 const HomeBreadcrumb = () => {
-    return (
-        <div className='home-breadcrumb'>
-            <Link to='/'>
-                <CustomButton>Home</CustomButton>
-            </Link>
-        </div>
-    )
-}
+	const navigate = useNavigate();
 
-export default HomeBreadcrumb
+	return (
+		<div className='home-breadcrumb'>
+			<CustomButton onClick={() => navigate(-1)}>
+				<i className='icon fas fa-chevron-left'></i> Back
+			</CustomButton>
+		</div>
+	);
+};
+
+export default HomeBreadcrumb;
