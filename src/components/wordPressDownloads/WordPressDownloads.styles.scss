@@ -1,0 +1,11 @@
+@import "../../index.scss";
+
+.wordpress-downloads {
+    margin: 10vh 0 30vh;
+    text-align: center;
+    .items {
+        margin: 0 15.75px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

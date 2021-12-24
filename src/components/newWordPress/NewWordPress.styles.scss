@@ -1,0 +1,21 @@
+@import '../../index.scss';
+
+.new-wordpress {
+    margin: 10vh 0 30vh;
+    .title {
+        text-align: center;
+    }
+    .step {
+        margin: 15.75px 0;
+        .step-item {
+            margin-left: 15.75px;
+            li {
+                margin-left: 15.75px;
+            }
+            .image {
+                width: 70%;
+                margin: 15.75px 0;
+            }
+        }
+    }
+}

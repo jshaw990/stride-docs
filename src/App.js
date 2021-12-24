@@ -6,6 +6,8 @@ import Footer from "./components/footer/Footer.component";
 import NotFoundPage from "./pages/notFound/NotFound.Page";
 import LandingPage from "./pages/landing/Landing.Page";
 import WordPressPage from "./pages/wordpress/WordPress.page";
+import NewWordPress from "./components/newWordPress/NewWordPress.component";
+import WordPressDownloads from "./components/wordPressDownloads/WordPressDownloads.component";
 
 function App() {
 	return (
@@ -16,6 +18,8 @@ function App() {
 					<Routes>
 						<Route exact path='/' element={<LandingPage />} />
 						<Route path='wordpress' element={<WordPressPage />} />
+						<Route path='wordpress/new-instance' element={<NewWordPress />} />
+						<Route path='wordpress/downloads' element={<WordPressDownloads />} />
 						<Route path='*' element={<NotFoundPage />} />
 					</Routes>
 				</BrowserRouter>
