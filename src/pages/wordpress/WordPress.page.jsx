@@ -16,6 +16,10 @@ const WordPressPage = () => {
 						<i className='icon far fa-plus-square'></i>
 						<div className='lg'>Create a New WordPress Instance</div>
 					</Link>
+					<Link to='adding-analytics' className='item'>
+						<i className='icon fas fa-chart-line'></i>
+						<div className='lg'>Adding Google Analytics</div>
+					</Link>
 					<Link to='downloads' className='item'>
 						<i className='icon far fa-save'></i>
 						<div className='lg'>WordPress Downloads</div>

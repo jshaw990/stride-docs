@@ -5,10 +5,9 @@
 	.categories {
 		display: flex;
 		justify-content: center;
-		align-items: center;
-		margin: 45px 0;
 		.item {
 			color: $stride-darkblue;
+			width: 200px;
 			.icon {
 				font-size: 75px;
 				margin-bottom: 15.75px;
@@ -26,6 +25,8 @@
 		margin: 15vh 0 30vh;
 		.categories {
 			flex-direction: row;
+			align-items: flex-start;
+			margin: 45px 0;
 			.item {
 				margin: 0 60px;
 			}
@@ -35,9 +36,14 @@
 
 @media only screen and (max-width: 600px) {
     .wordpress-page {
-        margin: 50px 0 75px;    
+        margin: 50px 0 75px;   
+		.title {
+			padding-top: 15.75px;
+		} 
         .categories {
             flex-direction: column;
+			align-items: center;
+			margin: 0;
             .item {
                 margin: 15px;
             }

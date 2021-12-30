@@ -8,6 +8,7 @@ import LandingPage from "./pages/landing/Landing.Page";
 import WordPressPage from "./pages/wordpress/WordPress.page";
 import NewWordPress from "./components/newWordPress/NewWordPress.component";
 import WordPressDownloads from "./components/wordPressDownloads/WordPressDownloads.component";
+import AddingAnalytics from "./components/addingAnalytics/addingAnalytics.component";
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 						<Route path='wordpress' element={<WordPressPage />} />
 						<Route path='wordpress/new-instance' element={<NewWordPress />} />
 						<Route path='wordpress/downloads' element={<WordPressDownloads />} />
+						<Route path='wordpress/adding-analytics' element={<AddingAnalytics />} />
 						<Route path='*' element={<NotFoundPage />} />
 					</Routes>
 				</BrowserRouter>
