@@ -1,11 +1,45 @@
 @import "../../index.scss";
 
 .wordpress-downloads {
-    margin: 10vh 0 30vh;
     text-align: center;
     .items {
-        margin: 0 15.75px;
+        margin: 15.75px;
         display: flex;
         justify-content: space-between;
+        .item {
+            color: $stride-darkblue;
+            .icon {
+                font-size: 75px;
+                margin-bottom: 15.75px;
+            }
+            &:hover {
+                color: $stride-blue;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 601px) {
+	.wordpress-downloads {
+		margin: 0 0 30vh;
+		.items {
+			flex-direction: row;
+			.item {
+				margin: 0 60px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+    .wordpress-downloads {
+        margin: 20px 0 75px;    
+        .items {
+            flex-direction: column;
+            .item {
+                margin: 15px;
+            }
+        }
     }
 }

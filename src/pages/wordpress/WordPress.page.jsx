@@ -11,13 +11,15 @@ const WordPressPage = () => {
 			<HomeBreadcrumb />
 			<div className='content'>
 				<div className='xl title'>WordPress</div>
-				<div className='items'>
-				<div>
-						<Link to='new-instance'>Create a New WordPress Instance</Link>
-					</div>
-					<div>
-						<Link to='downloads'>WordPress Downloads</Link>
-					</div>
+				<div className='categories'>
+					<Link to='new-instance' className='item'>
+						<i className='icon far fa-plus-square'></i>
+						<div className='lg'>Create a New WordPress Instance</div>
+					</Link>
+					<Link to='downloads' className='item'>
+						<i className='icon far fa-save'></i>
+						<div className='lg'>WordPress Downloads</div>
+					</Link>
 				</div>
 			</div>
 		</div>

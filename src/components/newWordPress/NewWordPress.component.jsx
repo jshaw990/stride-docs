@@ -1,17 +1,20 @@
 import React from 'react' 
 
+import HomeBreadcrumb from "../../components/homeBreadcrumb/HomeBreadcrumb.component";
+
 import wp1 from '../../assets/images/wordpress/wp-install-0.png'
 import wp2 from '../../assets/images/wordpress/wp-install-1.png'
 import wp3 from '../../assets/images/wordpress/wp-install-2.png'
 import wp4 from '../../assets/images/wordpress/wp-install-3.png'
 import wp5 from '../../assets/images/wordpress/wp-install-4.png'
 import wp6 from '../../assets/images/wordpress/wp-install-5.png'
-
-import './NewWordPress.styles.scss'
+import wp7 from '../../assets/images/wordpress/wp-install-6.png'
+import wp8 from '../../assets/images/wordpress/wp-install-7.png'
 
 const NewWordPress = () => {
     return (
-        <div className='new-wordpress'>
+        <div className='new-wordpress step-page'>
+            <HomeBreadcrumb />
             <div className='xl title'>Creating a New WordPress Instance</div>
             <div>To create a new website with WordPress use the following steps as a guide.</div>
             <div className='step'>
@@ -137,6 +140,67 @@ const NewWordPress = () => {
                     Navigate to <i>Plugins -> Add New</i> and search for <i>White Label CMS</i> then <i>Install</i> and then <i>Activate</i>
                 </div>
             </div>
+            <div className='step'>
+                <div className='step-num lg'>Step 17</div>
+                <div className='step-item'>
+                    <li>Navigate to <i>Settings -> White Label CMS</i> and press the <i>Skip</i> button</li>
+                    <li>Scroll to the bottom and select <i>import settings</i></li>
+                    <li>Drag and drop the <i>wlcms-settings.json</i> file into the box</li>
+                    <li>Press <i>Save</i></li>
+                    <div>You can confirm this action was completed successfully if the STRIDE logo appears on the top left of the WordPress Dashboard</div>
+                </div>
+            </div>
+            <div className='step'>
+                <div className='step-num lg'>Step 18</div>
+                <div className='step-item'>
+                    Navigate to <i>Dashboard -> Updates</i> and update any themes/plugins that have a newer version.
+                </div>
+            </div>
+            <div className='step'>
+                <div className='step-num lg'>Step 19</div>
+                <div className='step-item'>
+                    <li>Navigate to <i>Posts</i> and delete all of the default WordPress Posts</li>
+                    <li>Navigate to <i>Pages</i> and delete all of the default WordPress Pages</li>
+                    <li>Navigate to <i>Comments</i> and delete all of the default WordPress Comments</li>
+                </div>
+            </div>
+            <div className='step'>
+                <div className='step-num lg'>Step 20</div>
+                <div className='step-item'>
+                    <li>Navigate to <i>Templates</i> and select <i>Add New</i></li>
+                    <li>Select <i>Page</i> as the type of template and name it <i>Coming-Soon</i> and select <i>CREATE TEMPLATE</i></li>
+                    <li>Build a coming soon template</li>
+                    <li>Within the template builder, select the hamburger icon in the top left hand corner</li>
+                    <li>Select <i>Site Settings -> Custom CSS</i></li>
+                    <li>Paste in the following CSS:</li>
+                    <code>{".site-header { display: none !important; } .page-header { display: none !important; }"}</code>
+                    <li>Click <i>Update</i></li>
+                </div>
+            </div>
+            <div className='step'>
+                <div className='step-num lg'>Step 21</div>
+                <div className='step-item'>
+                    <li>From the WordPress Dashboard, navigate to <i>Elementor -> Tools</i> and select the <i>Maintenance Mode</i> tab</li>
+                    <li>Change the <i>Choose Mode</i> dropdown to <i>Coming Soon</i></li>
+                    <li>Select your <i>Coming Soon</i> template for the <i>Choose Template</i> option</li>
+                    <li>Press <i>Save Changes</i></li>
+                    <img src={wp7} alt='' className='image'/>
+                </div>
+            </div>
+            <div className='step'>
+                <div className='step-num lg'>Step 22</div>
+                <div className='step-item'>
+                    <li>From the WordPress Dashboard, navigate to <i>Users -> Add New</i></li>
+                    <li>Enter the Graphics ID into as the Username field</li>
+                    <li>Enter the Graphics email in the email address field</li>
+                    <li>Change the Role to <i>Administrator</i></li>
+                    <li>Note the Username and Password in a text document for addition to the Masterpass</li>
+                    <li>Click <i>Add New User</i></li>
+                    <li>Repeat the following steps for all Graphics Accounts</li>
+                    <img src={wp8} alt='' className='image'/>
+                </div>
+            </div>
+            <div className='lg'>At this point you are ready to begin development on the new WordPress website!</div>
         </div>
     )
 }
