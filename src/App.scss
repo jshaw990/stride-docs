@@ -65,3 +65,24 @@
         }
     }
 }
+
+.article-page {
+    margin: 0 0 30vh;
+    .title {
+        text-align: center;
+    }
+    .content {
+        width: 70%;
+        min-width: 300px;
+        margin: 0 auto;
+        .para {
+            padding-bottom: 15.75px;
+        }
+    }
+    a {
+        color: $stride-blue;
+        &:hover {
+            color: $stride-green;
+        }
+    }
+}

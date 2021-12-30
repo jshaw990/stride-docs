@@ -2,11 +2,11 @@ import React from 'react'
 
 import HomeBreadcrumb from "../../components/homeBreadcrumb/HomeBreadcrumb.component";
 
-import wpa0 from '../../assets/images/wordpress/wp-analytics-0.png'
-import wpa1 from '../../assets/images/wordpress/wp-analytics-1.png'
-import wpa2 from '../../assets/images/wordpress/wp-analytics-2.png'
-import wpa3 from '../../assets/images/wordpress/wp-analytics-3.png'
-import wpa4 from '../../assets/images/wordpress/wp-analytics-4.png'
+import wpa0 from '../../assets/images/wordpress/wp-analytics-0.webp'
+import wpa1 from '../../assets/images/wordpress/wp-analytics-1.webp'
+import wpa2 from '../../assets/images/wordpress/wp-analytics-2.webp'
+import wpa3 from '../../assets/images/wordpress/wp-analytics-3.webp'
+import wpa4 from '../../assets/images/wordpress/wp-analytics-4.webp'
 
 const AddingAnalytics = () => {
     return (

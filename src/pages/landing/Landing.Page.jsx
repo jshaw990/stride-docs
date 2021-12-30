@@ -24,10 +24,10 @@ const LandingPage = () => {
 					<i className='icon far fa-file-code'></i>
 					<div className='lg'>Code Snippets</div>
 				</div>
-				<div className='item'>
+				<Link to='/misc' className='item'>
 					<i className='icon fas fa-swatchbook'></i>
 					<div className='lg'>Miscellaneous</div>
-				</div>
+				</Link>
 			</div>
 		</div>
 	);

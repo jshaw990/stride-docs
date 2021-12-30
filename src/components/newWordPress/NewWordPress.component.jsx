@@ -2,14 +2,14 @@ import React from 'react'
 
 import HomeBreadcrumb from "../../components/homeBreadcrumb/HomeBreadcrumb.component";
 
-import wp1 from '../../assets/images/wordpress/wp-install-0.png'
-import wp2 from '../../assets/images/wordpress/wp-install-1.png'
-import wp3 from '../../assets/images/wordpress/wp-install-2.png'
-import wp4 from '../../assets/images/wordpress/wp-install-3.png'
-import wp5 from '../../assets/images/wordpress/wp-install-4.png'
-import wp6 from '../../assets/images/wordpress/wp-install-5.png'
-import wp7 from '../../assets/images/wordpress/wp-install-6.png'
-import wp8 from '../../assets/images/wordpress/wp-install-7.png'
+import wp1 from '../../assets/images/wordpress/wp-install-0.webp'
+import wp2 from '../../assets/images/wordpress/wp-install-1.webp'
+import wp3 from '../../assets/images/wordpress/wp-install-2.webp'
+import wp4 from '../../assets/images/wordpress/wp-install-3.webp'
+import wp5 from '../../assets/images/wordpress/wp-install-4.webp'
+import wp6 from '../../assets/images/wordpress/wp-install-5.webp'
+import wp7 from '../../assets/images/wordpress/wp-install-6.webp'
+import wp8 from '../../assets/images/wordpress/wp-install-7.webp'
 
 const NewWordPress = () => {
     return (

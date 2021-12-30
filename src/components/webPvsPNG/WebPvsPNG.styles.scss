@@ -1,0 +1,29 @@
+@import "../../index.scss"; 
+
+.web-p-vs-png {
+    .image {
+        width: 100%;
+    }
+    .center {
+        text-align: center;
+    }
+    .stats {
+        text-align: center;
+        padding: 10px;
+    }
+    .img-cont {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+	.img-cont {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .img-cont {
+        flex-direction: column;
+    }
+}
