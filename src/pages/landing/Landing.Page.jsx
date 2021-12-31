@@ -16,10 +16,6 @@ const LandingPage = () => {
 					<i className='icon fab fa-wordpress-simple'></i>
 					<div className='lg'>WordPress</div>
 				</Link>
-				<div className='item'>
-					<i className='icon far fa-file-alt'></i>
-					<div className='lg'>ClickSpace Forms</div>
-				</div>
 				<Link to='/code' className='item'>
 					<i className='icon far fa-file-code'></i>
 					<div className='lg'>Code Snippets</div>

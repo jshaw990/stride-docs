@@ -9,7 +9,7 @@ const NotFoundPage = () => {
 	return (
 		<div className='not-found-page'>
 			<div className='stride-blue bold uppercase'>404 Error</div>
-			<div className='bold xxl'>Page not found</div>
+			<div className='bold xxl title'>Page not found</div>
 			<div className=''>
 				Sorry, the page {location.pathname} could not be found.
 			</div>
