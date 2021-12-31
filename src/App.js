@@ -7,6 +7,7 @@ import NotFoundPage from "./pages/notFound/NotFound.Page";
 import LandingPage from "./pages/landing/Landing.Page";
 import WordPressPage from "./pages/wordpress/WordPress.page";
 import MiscellaneousPage from "./pages/miscellaneous/Miscellaneous.page";
+import CodeSnippetsPage from "./pages/codeSnippets/CodeSnippets.page";
 import NewWordPress from "./components/newWordPress/NewWordPress.component";
 import WordPressDownloads from "./components/wordPressDownloads/WordPressDownloads.component";
 import ChangingWordPressHome from "./components/changingWordPressHome/ChangingWordPressHome.component";
@@ -31,6 +32,7 @@ function App() {
 						<Route path='wordpress/changing-home' element={<ChangingWordPressHome />} />
 						<Route path='wordpress/changing-icon' element={<ChangingWordPressIcon />} />
 						<Route path='wordpress/changing-title' element={<ChangingWordPressTitle />} />
+						<Route path='code' element={<CodeSnippetsPage />} />
 						<Route path='misc' element={<MiscellaneousPage />} />
 						<Route path='misc/web-p-vs-png' element={<WebPvsPNG />} />
 						<Route path='misc/csv-to-json' element={<CSVtoJSON />} />

@@ -96,7 +96,7 @@ const CSVtoJSON = () => {
 				</div>
 				<div className='para'>
 					<div className='lg'>Other Useful Tools</div>
-					<div className='para'>
+					<div>
 						Some other useful tools that I recommend when working with JSON data
 						are:
 					</div>

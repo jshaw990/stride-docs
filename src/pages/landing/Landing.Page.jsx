@@ -20,10 +20,10 @@ const LandingPage = () => {
 					<i className='icon far fa-file-alt'></i>
 					<div className='lg'>ClickSpace Forms</div>
 				</div>
-				<div className='item'>
+				<Link to='/code' className='item'>
 					<i className='icon far fa-file-code'></i>
 					<div className='lg'>Code Snippets</div>
-				</div>
+				</Link>
 				<Link to='/misc' className='item'>
 					<i className='icon fas fa-swatchbook'></i>
 					<div className='lg'>Miscellaneous</div>
