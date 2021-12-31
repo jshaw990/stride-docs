@@ -16,6 +16,10 @@ const MiscellaneousPage = () => {
 						<i className='icon far fa-images'></i>
 						<div className='lg'>WebP vs PNG</div>
 					</Link>
+					<Link to='csv-to-json' className='item'>
+						<i className="icon fas fa-exchange-alt"></i>
+						<div className='lg'>Converting CSV to JSON</div>
+					</Link>
 				</div>
 			</div>
 		</div>

@@ -14,6 +14,7 @@ import ChangingWordPressIcon from "./components/changingWordPressIcon/ChangingWo
 import ChangingWordPressTitle from "./components/changingWordPressTitle/ChangingWordPressTitle.component";
 import AddingAnalytics from "./components/addingAnalytics/addingAnalytics.component";
 import WebPvsPNG from "./components/webPvsPNG/WebPvsPNG.component";
+import CSVtoJSON from "./components/csvToJson/CsvtoJson.component";
 
 function App() {
 	return (
@@ -32,6 +33,7 @@ function App() {
 						<Route path='wordpress/changing-title' element={<ChangingWordPressTitle />} />
 						<Route path='misc' element={<MiscellaneousPage />} />
 						<Route path='misc/web-p-vs-png' element={<WebPvsPNG />} />
+						<Route path='misc/csv-to-json' element={<CSVtoJSON />} />
 						<Route path='*' element={<NotFoundPage />} />
 					</Routes>
 				</BrowserRouter>
