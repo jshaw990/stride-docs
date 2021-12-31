@@ -7,3 +7,9 @@ Documentation of development processes for [STRIDE Management Corp](https://stri
 ## Author
 Jayden Shaw
 [Email](mailto:jayden.shaw@gmail.com) | [Github](https://github.com/jshaw990) | [Portfolio](https://jaydenshaw.com/)
+
+### Technologies Utilized 
+- React 
+- React-Router-DOM
+- SCSS
+- React-Embed-Gist

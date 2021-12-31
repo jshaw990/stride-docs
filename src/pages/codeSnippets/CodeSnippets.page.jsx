@@ -17,6 +17,13 @@ const CodeSnippetsPage = () => {
 			<HomeBreadcrumb />
 			<div className='xl title'>Converting CSV to JSON</div>
 			<div className='categories'>
+			<div
+					className='item'
+					name='searchable'
+					onClick={() => handleClick("tkt-pkg")}>
+					<i className="icon fas fa-cubes"></i>
+					<div className='lg'>Ticket Package</div>
+				</div>
 				<div
 					className='item'
 					name='searchable'
@@ -62,6 +69,15 @@ const CodeSnippetsPage = () => {
 					<div>
 						<ReactEmbedGist
 							gist='jshaw990/51f80789f1199f7026137a494a851f4b'
+							wrapperClass='embed-gist'
+							titleClass='lg'
+						/>
+					</div>
+				)}
+				{item === "tkt-pkg" && (
+					<div>
+						<ReactEmbedGist
+							gist='jshaw990/d95c2dc3527250c583f25e4eafaf5cf7'
 							wrapperClass='embed-gist'
 							titleClass='lg'
 						/>
